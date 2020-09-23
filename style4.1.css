@@ -1,0 +1,668 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Style*/
+body{
+	background-image:url(backgroundstars1.png);o-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	}
+
+/*Header*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: 'GlacialIndifferenceRegular',sans-serif;
+  padding: 12px 16px;
+  font-weight: normal;
+  font-style: normal;
+  color: #00028c;
+
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: 'GlacialIndifferenceRegular',sans-serif;
+  padding: 12px 16px;
+  font-weight: normal;
+  font-style: normal;
+  color: #00028c;
+
+}
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+/*Title*/
+.header h1{
+	padding-top: 10px;
+	font-size: 50px;
+    font-family: 'BeonRegular',sans-serif;
+    font-weight: normal;
+    font-style: normal;
+	color: #00028c;
+}
+
+.header{
+	padding-left: 100px;
+	background-color: #ffe100;
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	font-family: 'GlacialIndifferenceRegular', Courier, monospace;
+	font-size: 21px;
+}
+
+.header ul li{
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.header a{
+	text-decoration: none;
+	color: #fc6fd2;
+	padding: 5px;
+}
+
+.header a:hover{
+	background-color: white;
+	color : #00028c;
+}
+
+/*Container*/
+.container{
+	border:2px black solid;
+	width:960px;
+	margin:auto;
+	padding:30px;
+	box-sizing: border-box;
+	background-color: white;
+}
+
+/*Problem begin*/
+.container h1{
+	font-family: 'PiazzollaSCRegular',sans serif;
+  	 font-weight: normal;
+   	 font-style: normal;
+   	 font-size: 40px;
+   	 text-align: center;
+   	 color: #00028c;
+}
+
+.containerh1 p{
+	font-family: 'PiazzollaSCRegular',sans serif;
+  	 font-weight: normal;
+   	 font-style: normal;
+   	 font-size: 15px;
+   	 text-align: center;
+   	 color: #00028c;
+}
+
+.containerh1{
+	height: 65px;
+	width: 100%;
+	background-color: #ffe100;
+}
+
+.containerh2{
+	height: 20px;
+	width: 100%;
+	background-color: #ffe100;
+	text-align: center;
+}
+
+/*Recommendation */
+.recommendation{
+	font-size: 20px;
+	margin: auto;
+}
+
+/*r1*/
+.r1 img{
+	height: 75px;	
+	margin: auto;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 7px;
+}	
+
+.r1 a{
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.r1 a:hover{color:red;}
+
+.r1{
+	border: 1px black solid;
+	width: 120px;
+	height: 120px;
+	float: left;
+	margin-right: 30px;
+	background-color: #ffe100;
+}
+
+/*r2-27 img*/
+.r2 img, .r3 img, .r4 img, .r5 img, .r6 img, .r7 img, .r8 img, .r9 img, .r10 img, .r11 img, .r12 img, .r13 img, .r14 img, .r15 img, .r16 img, .r17 img, .r18 img, .r19 img, .r20 img, .r21 img, .r22 img, .r23 img, .r24 img, .r25 img, .r26 img, .r27 img{
+	height: 75px;	
+	margin: auto;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 7px;
+}	
+
+/*r2-27 a no 21 and 23*/
+.r2 a, .r3 a, .r4 a, .r5 a, .r6 a, .r7 a, .r9 a, .r10 a, .r11 a, .r12 a, .r13 a, .r14 a, .r15 a, .r16 a, .r17 a, .r18 a, .r19 a, .r20 a, .r22 a, .r24 a, .r25 a, .r26 a, .r27 a{
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*r2*/
+.r2 a:hover{color:red;}
+
+/*r2-r5 boxing*/
+.r2, .r3, .r4, .r5{
+	border: 1px black solid;
+	width: 120px;
+	height: 120px;
+	float: left;
+	margin-right: 30px;
+	background-color: #ffe100;
+}
+
+/*r3*/
+.r3 a:hover{color:red;}
+
+/*r4*/
+.r4 a:hover{color:red;}
+
+/*r5*/
+.r5 a:hover{color:red;}
+.r5 a{
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 19px;
+}
+
+/*r6*/
+.r6 a:hover{color:red;}
+.r6 a{
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+}
+.r6{
+	border: 1px black solid;
+	width: 120px;
+	height: 120px;
+	float: left;
+	background-color: #ffe100;
+}
+
+/*r7*/
+.r7 a:hover{color:red;}
+
+/*r 7-27 no 12 and 24*/
+.r7, .r8, .r9, .r10, .r11, .r13, .r14, .r15, .r16, .r17, .r19, .r20, .r21, .r22, .r23, .r25, .r26, .r27{
+	border: 1px black solid;
+	width: 120px;
+	height: 120px;
+	float: left;
+	margin-right: 30px;
+	margin-top: 30px;
+	background-color: #ffe100;
+}
+
+/*r8*/
+.r8 a{
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.r8 a:hover{color:red;}
+
+/*r9*/
+.r9 a:hover{color:red;}
+
+/*r10*/
+.r10 a:hover{color:red;}
+
+/*r11*/
+.r11 a:hover{color:red;}
+.r11 a{
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+}
+
+/*r12*/
+.r12 a:hover{color:red;}
+
+.r12, .r18, .r24{
+	border: 1px black solid;
+	width: 120px;
+	height: 120px;
+	float: left;
+	margin-top: 30px;
+	background-color: #ffe100;
+}
+
+
+/*r13*/
+.r13 a:hover{color:red;}
+
+/*r14*/
+.r14 a:hover{color:red;}
+
+/*r15*/
+.r15 a:hover{color:red;}
+
+/*r16*/
+.r16 a:hover{color:red;}
+
+/*r17*/
+.r17 a:hover{color:red;}
+
+/*r18*/
+.r18 a:hover{color:red;}
+.r18 a{
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 17px;
+}
+
+/*r19*/
+.r19 a:hover{color:red;}
+.r19 a{
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 17px;
+}
+
+/*r20*/
+.r20 a:hover{color:red;}
+.r20 a{
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 17px;
+}
+
+/*r21*/
+.r21 a{
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.r21 a:hover{color:red;}
+
+/*r22*/
+.r22 a:hover{color:red;}
+
+/*r23*/
+.r23 a{
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1px;
+}
+
+.r23 a:hover{color:red;}
+
+/*r24*/
+.r24 a:hover{color:red;}
+.r24 a{
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+}
+
+/*r25*/
+.r25 a:hover{color:red;}
+
+/*r26*/
+.r26 a:hover{color:red;}
+.r26 a{
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+}
+
+/*r27*/
+.r27 a:hover{color:red;}
+
+/*Recommendation 2 bahasa indonesia*/
+.recommendation2 h2{
+	height: 40px;
+	font-size: 30px;
+	width: 100%;
+	background-color: #ffe100;
+	font-family: 'PiazzollaSCRegular',sans serif;
+  	 font-weight: normal;
+   	 font-style: normal;
+   	 text-align: center;
+   	 color: #00028c;
+   	 margin-top: 20px;
+}
+
+.recommendation2{
+	font-size: 20px;
+	margin: auto;
+}
+
+/*ri1*/
+.ri1 img, .ri2 img, .ri3 img, .ri4 img, .ri5 img, .ri6 img, .ri7 img, .ri8 img, .ri9 img, .ri10 img, .ri12 img{
+	height: 75px;	
+	margin: auto;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 7px;
+}	
+
+.ri1 a, .ri2 a, .ri3 a, .ri4 a, .ri6 a, .ri8 a, .ri9 a, .ri10 a, .ri12 a{
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ri1 a:hover{color:red;}
+
+.ri1, .ri2, .ri3, .ri4, .ri5{
+	border: 1px black solid;
+	width: 120px;
+	height: 120px;
+	float: left;
+	margin-right: 30px;
+	margin-top: 30px;
+	background-color: #ffe100;
+}
+
+/*ri2*/
+.ri2 a:hover{color:red;}
+
+/*ri3*/
+.ri3 a:hover{color:red;}
+
+/*ri4*/
+.ri4 a:hover{color:red;}
+
+/*ri5*/
+.ri5 a{
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.ri5 a:hover{color:red;}
+
+/*ri6*/
+.ri6 a:hover{color:red;}
+
+.ri6{
+	border: 1px black solid;
+	width: 120px;
+	height: 120px;
+	float: left;
+	margin-top: 30px;
+	background-color: #ffe100;
+}
+
+/*ri7*/
+.ri7 a{
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.ri7 a:hover{color:red;}
+
+/*ri7-ri12 boxing*/
+.ri7, .ri8, .ri9, .ri10, .ri11{
+	border: 1px black solid;
+	width: 120px;
+	height: 120px;
+	float: left;
+	margin-right: 30px;
+	margin-top: 30px;
+	background-color: #ffe100;
+}
+
+/*ri8*/
+.ri8 a:hover{color:red;}
+.ri8 a{
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 17px;
+}
+
+/*ri9*/
+.ri9 a:hover{color:red;}
+
+/*ri10*/
+.ri10 a:hover{color:red;}
+.ri10 a{
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 17px;
+}
+
+/*ri11*/
+.ri11 a:hover{color:red;}
+.ri11 img{
+	height: 70px;	
+	margin: auto;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+}	
+
+.ri11 a{
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+}
+
+/*ri12*/
+.ri12 a:hover{color:red;}
+.ri12{
+	border: 1px black solid;
+	width: 120px;
+	height: 120px;
+	float: left;
+	margin-top: 30px;
+	background-color: #ffe100;
+}
+
+
+
+
+
+
+/*Clear*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
